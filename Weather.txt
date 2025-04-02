@@ -1,1 +1,141 @@
 
+<!DOCTYPEhtml>
+
+<!--CodingByCodingNepal-www.codingnepalweb.com-->
+
+<htmllang="en">
+
+<head>
+
+<metacharset="utf-8">
+
+<title>WeatherAppProjectJavaScript|CodingNepal</title>
+
+<linkrel="stylesheet"href="style.css">
+
+<metaname="viewport"content="width=device-width,initial-scale=1.0">
+
+<scriptsrc="script.js"defer></script>
+
+</head>
+
+<body>
+
+<h1>Meteoforcaster</h1>
+
+<divclass="container">
+
+<videoautoplayloopmuted>
+
+<sourcesrc="forest.mp4"type="video/mp4">
+
+</video>
+
+<divclass="weather-inputz">
+ 
+<h3>EnteraCityName</h3>
+
+<inputclass="city-input"type="text"placeholder="E.g.,NewYork, London, Tokyo">
+<buttonclass="search-btn">Search</button>
+
+<divclass="separator"></div>
+
+<buttonclass="location-btn">UseCurrentLocation</button>
+
+</div>
+
+<divclass="weather-data">
+
+<divclass="current-weather">
+
+<divclass="details">
+
+<h2>	( 	)</h2>
+
+<h6>Temperature: 	°C</h6>
+
+<h6>Wind: 	M/S</h6>
+
+<h6>Humidity: 	%</h6>
+
+</div>
+
+</div>
+
+<divclass="days-forecast">
+
+<h2>5-DayForecast</h2>
+
+<ulclass="weather-cards">
+ 
+<liclass="card">
+
+<h3>( 	)</h3>
+
+<h6>Temp: 	C</h6>
+
+<h6>Wind: 	M/S</h6>
+
+<h6>Humidity: 	%</h6>
+
+</li>
+
+<liclass="card">
+
+<h3>( 	)</h3>
+
+<h6>Temp: 	C</h6>
+
+<h6>Wind: 	M/S</h6>
+
+<h6>Humidity: 	%</h6>
+
+</li>
+
+<liclass="card">
+
+<h3>( 	)</h3>
+
+<h6>Temp: 	C</h6>
+
+<h6>Wind: 	M/S</h6>
+
+<h6>Humidity: 	%</h6>
+
+</li>
+ 
+<liclass="card">
+
+<h3>( 	)</h3>
+
+<h6>Temp: 	C</h6>
+
+<h6>Wind: 	M/S</h6>
+
+<h6>Humidity: 	%</h6>
+
+</li>
+
+<liclass="card">
+
+<h3>( 	)</h3>
+
+<h6>Temp: 	C</h6>
+
+<h6>Wind: 	M/S</h6>
+
+<h6>Humidity: 	%</h6>
+
+</li>
+
+</ul>
+
+</div>
+
+</div>
+
+</div>
+
+</body>
+
+</html>
